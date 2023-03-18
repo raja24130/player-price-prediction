@@ -4,7 +4,7 @@ import sklearn
 import pandas as pd
 import numpy as np
 from PIL import Image
-model = pickle.load(open('model.sav', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 st.title('Player Salary Prediction')
 st.sidebar.header('Player Data')
